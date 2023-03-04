@@ -1,6 +1,7 @@
- [default.deploy.parameters]
- stack_name = "actions-aws-sam-stack"
- s3_bucket = "tnobe-sam-deploy"
- s3_prefix = "actions-aws-sam"
- confirm_changeset = false
- capabilities = "CAPABILITY_IAM"
+version=0.1
+[default.deploy.parameters]
+stack_name = "actions-aws-sam-stack"
+s3_bucket = "tnobe-sam-deploy"
+s3_prefix = "actions-aws-sam"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM"
